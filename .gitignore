@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Data & artifacts
+artifacts/
+data/raw/
+eval/reports/*.png
+eval/reports/*.csv
+
+# Notebooks
+*.ipynb_checkpoints/
+
+# OS
+.DS_Store
