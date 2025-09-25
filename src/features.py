@@ -10,7 +10,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.impute import SimpleImputer
 
 NUM_FEATURES: List[str] = ["age", "sibsp", "parch", "fare"]
-CAT_FEATURES: List[str] = ["pclass", "sex", "embarked"]  # pclass se puede tratar como cat
+CAT_FEATURES: List[str] = ["pclass", "sex", "embarked"] 
 
 def build_preprocessor() -> ColumnTransformer:
     num_pipe = Pipeline(steps=[
@@ -29,5 +29,4 @@ def build_preprocessor() -> ColumnTransformer:
     )
     return pre
 
-# Evitar import circular
-from sklearn.pipeline import Pipeline  # noqa
+from sklearn.pipeline import Pipeline 
