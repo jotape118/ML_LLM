@@ -4,6 +4,8 @@ __pycache__/
 *.pyo
 .venv/
 
+.env
+
 # Data & artifacts
 artifacts/
 data/raw/
@@ -15,3 +17,5 @@ eval/reports/*.csv
 
 # OS
 .DS_Store
+".env" 
+".env" 
